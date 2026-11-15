@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="theme-color" content="#4f95dc" />
+    <meta name="apple-mobile-web-app-title" content="駿河台シティ" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>駿河台シティ</title>
+    <script type="module" crossorigin src="./assets/index-B95oD4Kn.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CCrOYzBV.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="crosshair"></div>
+    <div id="hud"></div>
+    <div id="drag-hint" hidden>マウスをドラッグして見回す（このブラウザではマウスを固定できないため）・Esc で一時停止</div>
+    <div id="overlay">
+      <div class="panel">
+        <h1>駿河台シティ</h1>
+        <p id="status">地形を読み込み中…</p>
+        <p id="start" hidden>クリックして開始</p>
+        <p class="touch-help">左下のスティックで歩く・画面をなぞって見回す・右下のボタンでジャンプや飛行</p>
+        <table class="key-help">
+          <tr><td>W A S D</td><td>移動</td></tr>
+          <tr><td>マウス</td><td>視点（固定できない環境ではドラッグ）</td></tr>
+          <tr><td>Space</td><td>ジャンプ（飛行中は上昇）</td></tr>
+          <tr><td>Shift</td><td>走る（飛行中は加速）</td></tr>
+          <tr><td>F</td><td>飛行モードの切り替え</td></tr>
+          <tr><td>C</td><td>飛行中に下降</td></tr>
+          <tr><td>R</td><td>駅前（デッキの上）に戻る</td></tr>
+          <tr><td>V</td><td>完成見本の場所（シンボルロード）へ</td></tr>
+          <tr><td>B</td><td>壁画の家へ</td></tr>
+          <tr><td>T</td><td>駿河台駅のホームへ</td></tr>
+          <tr><td>M</td><td>地図の小窓（今の駿河台と比べる）</td></tr>
+          <tr><td>N</td><td>地図の種類（地図・写真・計画）</td></tr>
+          <tr><td>+ / −</td><td>地図の拡大・縮小</td></tr>
+          <tr><td>Esc</td><td>一時停止</td></tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
