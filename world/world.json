@@ -2571,5 +2571,17 @@
       "y": 65.9
     }
   ],
+  "detail_areas": [
+    {
+      "id": "shiota_corner",
+      "name": "塩田公園の角（完成見本の住宅地）",
+      "center": [
+        -201.3,
+        -440.8
+      ],
+      "size": 40,
+      "_comment": "ここだけ完成品の細かさで描く（web/src/detail.ts）。道路・塀・車庫・電柱など。うまくいったら範囲を広げる。"
+    }
+  ],
   "source": "国土地理院 基盤地図情報 数値標高モデル（地理院タイル DEM5A / DEM5B / DEM10B）、© OpenStreetMap contributors（道路・建物）"
 }
